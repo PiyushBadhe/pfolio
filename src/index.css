@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+:root {
+  --primary-main: #1976d2;
+  --primary-light: #42a5f5;
+  --primary-dark: #1565c0;
+  --secondary-main: #9c27b0;
+  --secondary-light: #ba68c8;
+  --secondary-dark: #7b1fa2;
+  --dark-bg: #121212;
+  --light-bg: #fafafa;
+}
