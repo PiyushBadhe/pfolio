@@ -13,7 +13,7 @@ const navItems = [
 
 const Navbar = () => {
     const location = useLocation();
-    const { toggleTheme, isDark } = useTheme();
+    const { toggleTheme } = useTheme();
 
     return (
         <nav className="flex justify-between items-center px-6 py-4">
@@ -35,7 +35,7 @@ const Navbar = () => {
                 onClick={toggleTheme}
                 className="bg-gray-800 text-white px-3 py-1 rounded hover:bg-gray-700 transition-all duration-300"
             >
-                {isDark ? '☀️ Light' : '🌙 Dark'}
+                {/* {isDark ? '☀️ Light' : '🌙 Dark'} */}
             </motion.button>
         </nav>
     );
